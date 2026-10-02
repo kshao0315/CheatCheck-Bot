@@ -1,0 +1,2 @@
+Telethon>=1.36,<2
+PySocks>=1.7,<2

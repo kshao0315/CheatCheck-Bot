@@ -1,0 +1,8 @@
+services:
+  cheatcheck:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./account:/app/account
+      - ./data:/app/data
