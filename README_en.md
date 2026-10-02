@@ -1,6 +1,8 @@
 # CheatCheck Bot
 
-[中文](README.md) · [English](README.en.md)
+![CheatCheck Bot repository cover](assets/repository-cover.jpg)
+
+[中文](README.md) · [English](README_en.md)
 
 A Telegram group membership checking bot. It combines a bot session with one or more user account sessions to find groups a user shares with your configured sources. It provides individual lookups, bulk checks, whitelists, and group management.
 
