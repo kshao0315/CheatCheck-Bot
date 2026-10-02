@@ -1,6 +1,6 @@
 # CheatCheck Bot
 
-[中文](README.md) · [English](README.en.md)
+[中文](README.md) · [English](README_en.md)
 
 Telegram 群组成员检查 Bot。通过一个 Bot 和一个或多个用户账号会话，查询用户与已配置来源群的共同群组，提供单人查询、全员检查、白名单和群管理功能。
 
