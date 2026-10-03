@@ -251,4 +251,4 @@ python -B -m unittest discover -v
 
 现有测试使用模拟 Telegram 客户端和隔离数据库，发布检查中 178 项测试通过。核心文件：`bot.py`（入口与命令）、`account_pool.py`（账号调度）、`runtime_config.py`（配置）、`join_policy.py`（入群策略）、`group_imports.py`（导入）、`group_whitelist.py`（群白名单）。
 
-真实 `.env`、账号 JSON、Telegram 会话、登录状态、SQLite 数据库、日志、私钥及备份保留在本地，已加入 Git / Docker 排除规则。仓库配置只含占位示例。
+真实 `.env`、账号 JSON、Telegram 会话、登录状态、SQLite 数据库、日志、私钥及备份保留在本地，已加入 Git / Docker 排除规则，仓库配置只含占位示例
