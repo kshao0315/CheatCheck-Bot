@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="referrer" content="no-referrer"><title>terminalfaker</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main aria-label="Android virtual terminal">
+  <header><span class="dot"></span><strong>terminalfaker</strong><span id="mode">connecting</span><button id="lang" type="button" aria-label="Switch language">English</button></header>
+  <section id="screen" aria-live="polite" aria-label="Terminal output"><pre id="banner"></pre><div id="output"></div></section>
+  <form id="terminal" autocomplete="off"><label id="prompt" for="command">$ </label><input id="command" name="command" type="text" spellcheck="false" autocapitalize="off" autocorrect="off" maxlength="512" aria-label="Terminal command" disabled><button id="send" type="submit" disabled>↵</button></form>
+  <footer><span id="notice"></span><button id="copy" type="button" hidden></button></footer>
+</main><script src="app.js"></script>
+</body></html>
